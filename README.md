@@ -52,6 +52,7 @@ credentials/
 > 💡 Tip: You can modify the model name in `run_chat.sh`
 
 ## 🏗️ System Architecture
+```
 ┌─────────────────┐    HTTP API    ┌─────────────────┐
 │   Client Agent  │ ──────────────► │   Tools Server  │
 │   (llm_agent)   │                │   (serve.py)    │
@@ -71,7 +72,7 @@ credentials/
 │ • snowflake_tool│
 │ • terminator_tool│
 └─────────────────┘
-
+```
 ## 🛠️ Core Tools
 
 ### 1. 📊 Database Query Tool (execute_database_sql)
@@ -190,6 +191,7 @@ DATABASES_PATH=./databases
 - Maintain output readability
 
 ## 📁 Project Structure
+```
 spider-agent-universal/
 ├── agent/                  # Client Agent code
 │   ├── llm_agent.py       # Main Agent logic
@@ -203,7 +205,7 @@ spider-agent-universal/
 ├── credentials/          # Database credentials (create yourself)
 ├── .env.example         # Environment configuration template
 └── requirements.txt     # Python dependencies
-
+```
 ## 🤝 Contributing
 
 Issues and Pull Requests are welcome to improve this project!
