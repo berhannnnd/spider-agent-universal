@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # 🕷️ Spider Agent Universal
+=======
+# 🤖 Spider agent 
+
+从Spider2中抽象出来，Spider agent
+>>>>>>> 934888609e6d51df9da2ee0628cc11ab7b52a638
 
 > A conversational Spider Agent abstracted from the [Spider2 project](https://github.com/xlang-ai/Spider2), supporting multi-database queries and system command execution in an intelligent agent system.
 
